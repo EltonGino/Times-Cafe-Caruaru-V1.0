@@ -2355,44 +2355,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 80px;
 }
 
-/*.banner-area {*/
-/*  background: url(../img/frente.jpeg) center;*/
-/*  background-size: cover;*/
-/*}*/
-
-/*@media (max-width: 1199.98px) {*/
-/*  .banner-area .fullscreen {*/
-/*    height: 920px !important;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*  .banner-area {*/
-/*    background: url(../img/frente.jpeg);*/
-/*    background-position: 50% 90% 50% 50%;*/
-/*  }*/
-/*}*/
-
-/*.banner-content {*/
-/*  margin-top: 250px;*/
-/*}*/
-
-/*.banner-content h1 {*/
-/*  color: #fff;*/
-/*  font-size: 60px;*/
-/*  font-weight: 600;*/
-/*  line-height: 1em;*/
-/*  margin-top: 20px;*/
-/*  margin-bottom: 20px;*/
-/*}*/
-
 .banner-content h1 span {
   font-weight: 700;
 }
 
 @media (max-width: 791.98px) {
   .carousel-inner h1 {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
     line-height: 1em;
     margin-top: 5px;
@@ -2402,7 +2371,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
   .carousel-inner h1 {
-    font-size: 35px;
+    font-size: 15px;
+  }
+  .carousel-inner h4 {
+    font-size: 10px;
   }
 }
 
@@ -2413,9 +2385,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 800x) {
+@media (max-width: 1000x) {
   .carousel-inner h4 {
-    font-size: 1px;
+    font-size: 5px;
 
   }
 }
@@ -2438,6 +2410,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 50px;
+}
+
+@media (max-width: 800px) {
+    .primary-btn {
+      background: #fff;
+      border: 1px solid transparent;
+      color: #222;
+      padding: 5px 10px; 
+      border-radius: 25px; 
+      font-size: 10px; 
+  }
 }
 
 .wapp-btn{
@@ -2464,21 +2447,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 margin-left: 41%;
 margin-top: 5%;
 }
-/*.estilizado {*/
-/*  background-color: #1c5b0a; !* Cor de fundo *!*/
-/*  color: #fff; !* Cor do texto *!*/
-/*  padding: 10px 20px; !* Espaçamento interno *!*/
-/*  text-decoration: none; !* Remover sublinhado de links *!*/
-/*  border-radius: 5px; !* Cantos arredondados *!*/
-/*  display: inline-block; !* Para tornar o botão um elemento em linha *!*/
-/*  transition: background-color 0.3s; !* Efeito de transição na mudança de cor de fundo *!*/
 
-/*  !* Estilização quando o cursor do mouse passa por cima do botão *!*/
-/*  &:hover {*/
-/*    background-color: #b2bfcc;*/
-/*  }*/
-/*}*/
 
+@media (max-width: 800px) {
+  .ifood-btn {
+    margin-left: 15%;
+    padding: 5px 20px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+}
+}
 
 .primary-btn:hover {
   border: 1px solid #ff0000;
@@ -2560,6 +2538,12 @@ margin-top: 5%;
 
 }
 
+@media (max-width: 850px) {
+  .menu-area .img-menu {
+    width: 100%; /* Defina a largura desejada */
+  }
+}
+
 .img-menu:hover{
   scale: 1.1;
   transition: 0.3s;
@@ -2625,6 +2609,12 @@ margin-top: 5%;
 .review-img{
   width: 200px;
   border-radius: 55%;
+}
+
+@media (max-width: 767px) {
+  .review-img{
+    margin-left: 25%;
+  }
 }
 
 .review-img:hover{
